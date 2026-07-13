@@ -1,10 +1,11 @@
 [project]
 name = "jax-learning"
 version = "0.1.0"
-requires-pythokn = ">=3.14"
+requires-python = ">=3.14"
 
 dependencies = [
     "jax",
     "numpy",
-    "notebook"
+    "notebook",
+    "matplotlib>=3.11.0",
 ]
